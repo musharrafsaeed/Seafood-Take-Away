@@ -1,0 +1,30 @@
+.so-widget-sow-social-media-buttons-flat-eaf6b3740652 .social-media-button-container {
+  zoom: 1;
+  text-align: center;
+}
+.so-widget-sow-social-media-buttons-flat-eaf6b3740652 .social-media-button-container:before {
+  content: '';
+  display: block;
+}
+.so-widget-sow-social-media-buttons-flat-eaf6b3740652 .social-media-button-container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.so-widget-sow-social-media-buttons-flat-eaf6b3740652 .sow-social-media-button {
+  font-size: 1em;
+  padding: 0.5em 0.5em;
+  margin: 0.1em 0.05em 0.1em 0.05em;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1em;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  border-radius: 0.25em;
+}
+.so-widget-sow-social-media-buttons-flat-eaf6b3740652 .sow-social-media-button .sow-icon-fontawesome {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+}

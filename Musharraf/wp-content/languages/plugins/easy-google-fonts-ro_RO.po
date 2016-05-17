@@ -1,0 +1,771 @@
+# Translation of Development (trunk) in Romanian
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-04 16:14:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: views/customizer/control/appearance/line-height.php:23
+msgid "Line Height"
+msgstr "Înălțime linie"
+
+#: views/customizer/control/positioning/border/bottom.php:28
+msgid "Bottom Style"
+msgstr "Stil jos"
+
+#: views/customizer/control/positioning/border/bottom.php:41
+msgid "Bottom Width"
+msgstr "Lățime jos"
+
+#: views/customizer/control/positioning/border/bottom.php:53
+msgid "Bottom Color"
+msgstr "Culoare jos"
+
+#: views/customizer/control/positioning/border/left.php:28
+msgid "Left Style"
+msgstr "Stil stânga"
+
+#: views/customizer/control/positioning/border/left.php:41
+msgid "Left Width"
+msgstr "Lățime stânga"
+
+#: views/customizer/control/positioning/border/left.php:53
+msgid "Left Color"
+msgstr "Culoare stânga"
+
+#: views/customizer/control/positioning/border/right.php:28
+msgid "Right Style"
+msgstr "Stil dreapta"
+
+#: views/customizer/control/positioning/border/right.php:41
+msgid "Right Width"
+msgstr "Lățime dreapta"
+
+#: views/customizer/control/positioning/border/right.php:53
+msgid "Right Color"
+msgstr "Culoare dreapta"
+
+#: views/customizer/control/positioning/border/start.php:19
+msgid "Border"
+msgstr "Chenar"
+
+#: views/customizer/control/positioning/border/start.php:22
+msgid "Select Border to Control"
+msgstr "Selectare chenar controlat"
+
+#: views/customizer/control/positioning/border/start.php:24
+#: views/customizer/control/positioning/margin/top.php:23
+#: views/customizer/control/positioning/padding/top.php:23
+msgid "Top"
+msgstr "Sus"
+
+#: views/customizer/control/positioning/border/start.php:25
+#: views/customizer/control/positioning/margin/bottom.php:23
+#: views/customizer/control/positioning/padding/bottom.php:23
+msgid "Bottom"
+msgstr "Jos"
+
+#: views/customizer/control/positioning/border/start.php:26
+#: views/customizer/control/positioning/margin/left.php:23
+#: views/customizer/control/positioning/padding/left.php:23
+msgid "Left"
+msgstr "Stânga"
+
+#: views/customizer/control/positioning/border/start.php:27
+#: views/customizer/control/positioning/margin/right.php:23
+#: views/customizer/control/positioning/padding/right.php:23
+msgid "Right"
+msgstr "Dreapta"
+
+#: views/customizer/control/positioning/border/top.php:28
+msgid "Top Style"
+msgstr "Stil sus"
+
+#: views/customizer/control/positioning/border/top.php:41
+msgid "Top Width"
+msgstr "Lățime sus"
+
+#: views/customizer/control/positioning/border/top.php:53
+msgid "Top Color"
+msgstr "Culoare sus"
+
+#: views/customizer/control/positioning/border-radius/bottom.php:23
+msgid "Top Right"
+msgstr "Sus dreapta"
+
+#: views/customizer/control/positioning/border-radius/left.php:23
+msgid "Bottom Left"
+msgstr "Stânga jos"
+
+#: views/customizer/control/positioning/border-radius/right.php:23
+msgid "Bottom Right"
+msgstr "Dreapta jos"
+
+#: views/customizer/control/positioning/border-radius/start.php:19
+msgid "Border Radius"
+msgstr "Rotunjire chenar"
+
+#: views/customizer/control/positioning/border-radius/top.php:23
+msgid "Top Left"
+msgstr "Sus stânga"
+
+#: views/customizer/control/positioning/display.php:23
+#: views/customizer/control/positioning/display.php:26
+msgid "Display"
+msgstr "Afișare"
+
+#: views/customizer/control/positioning/margin/start.php:19
+msgid "Margin"
+msgstr "Margine"
+
+#: views/customizer/control/positioning/padding/start.php:19
+msgid "Padding"
+msgstr "Distanțare"
+
+#: views/customizer/control/styles/font-family.php:31
+msgid "Font Family"
+msgstr "Familie font"
+
+#: views/customizer/control/styles/font-weight.php:23
+msgid "Font Weight/Style"
+msgstr "Grosime font/stil"
+
+#: views/customizer/control/styles/subsets.php:22
+msgid "Script/Subset"
+msgstr "Script/Subset"
+
+#: views/customizer/control/styles/text-decoration.php:21
+msgid "Text Decoration"
+msgstr "Decorare text"
+
+#: views/customizer/control/styles/text-transform.php:21
+msgid "Text Transform"
+msgstr "Transformare text"
+
+#. Description of the plugin/theme
+msgid "A simple and easy way to add google fonts to your WordPress theme."
+msgstr "O modalitate simplă și ușoară de a adăuga fonturi Google temei tale WordPress."
+
+#. Author of the plugin/theme
+msgid "Titanium Themes"
+msgstr "Titanium Themes"
+
+#. Author URI of the plugin/theme
+msgid "http://www.titaniumthemes.com"
+msgstr "http://www.titaniumthemes.com"
+
+#: includes/class-easy-google-fonts-admin.php:226
+#: includes/customizer/class-egf-customize-manager.php:369
+msgid "This page is asking you to confirm that you want to leave - data you have entered may not be saved."
+msgstr "Această pagină îți cere să confirmi că vrei să ieși - datele introduse s-ar putea să nu fie salvate."
+
+#: includes/class-easy-google-fonts-admin.php:227
+#: includes/customizer/class-egf-customize-manager.php:370
+msgid "Warning! You are about to permanently delete all font controls. 'Cancel' to stop, 'OK' to delete."
+msgstr "Atenționare! Ești pe cale să ștergi permanent toate controalele de font. 'Abandonează' pentru oprire, 'OK' pentru ștergere."
+
+#: includes/class-easy-google-fonts-admin.php:228
+#: includes/customizer/class-egf-customize-manager.php:371
+msgid "You are about to permanently delete this font control. 'Cancel' to stop, 'OK' to delete."
+msgstr "Ești pe cale să ștergi permanent acest control de font. 'Abandonează' pentru oprire, 'OK' pentru ștergere."
+
+#: includes/class-easy-google-fonts-admin.php:229
+#: includes/customizer/class-egf-customize-manager.php:372
+msgid "Google Display Fonts"
+msgstr "Fonturi Google de afișare"
+
+#: includes/class-easy-google-fonts-admin.php:230
+#: includes/class-easy-google-fonts-admin.php:269
+#: includes/customizer/class-egf-customize-manager.php:373
+msgid "Google Fonts"
+msgstr "Fonturi Google"
+
+#: includes/class-easy-google-fonts-admin.php:231
+#: includes/customizer/class-egf-customize-manager.php:374
+msgid "Google Handwriting Fonts"
+msgstr "Fonturi Google de mână"
+
+#: includes/class-easy-google-fonts-admin.php:232
+#: includes/customizer/class-egf-customize-manager.php:375
+msgid "Google Monospace Fonts"
+msgstr "Fonturi Google monospațiate"
+
+#: includes/class-easy-google-fonts-admin.php:233
+#: includes/customizer/class-egf-customize-manager.php:376
+msgid "Google Serif Fonts"
+msgstr "Fonturi Google cu serife"
+
+#: includes/class-easy-google-fonts-admin.php:234
+#: includes/customizer/class-egf-customize-manager.php:377
+msgid "Google Sans Serif Fonts"
+msgstr "Fonturi Google fără serife "
+
+#: includes/class-easy-google-fonts-admin.php:235
+#: includes/customizer/class-egf-customize-manager.php:378
+msgid "Standard Web Fonts"
+msgstr "Fonturi web standard"
+
+#: includes/class-easy-google-fonts-admin.php:236
+msgid "&mdash; Theme Default &mdash;"
+msgstr "&mdash; Implicite din temă &mdash;"
+
+#. #-#-#-#-#  tmp-easy-google-fonts.pot (Easy Google Fonts 1.3.9)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/class-easy-google-fonts-admin.php:268
+msgid "Easy Google Fonts"
+msgstr "Easy Google Fonts"
+
+#: includes/class-easy-google-fonts-admin.php:311
+msgid "Settings"
+msgstr "Setări"
+
+#: includes/class-easy-google-fonts-admin.php:364
+msgid "This screen is used for managing your custom font controls. It provides a way to create a custom font controls for any type of content in your theme."
+msgstr "Acest ecran este utilizat pentru gestionarea controalelor de font. El asigură o cale de a creea controale de font personalizate pentru orice fel de conținut din tema ta."
+
+#: includes/class-easy-google-fonts-admin.php:365
+#: includes/class-easy-google-fonts-admin.php:382
+#: includes/class-easy-google-fonts-admin.php:399
+msgid "From this screen you can:"
+msgstr "Din acest ecran poți să:"
+
+#: includes/class-easy-google-fonts-admin.php:366
+#: includes/class-easy-google-fonts-admin.php:383
+msgid "Create, edit, and delete custom font controls."
+msgstr "Creezi, editezi și ștergi controale de font personalizate."
+
+#: includes/class-easy-google-fonts-admin.php:367
+msgid "Manage all of your custom font controls."
+msgstr "Gestionează toate controalele tale de font personalizate."
+
+#: includes/class-easy-google-fonts-admin.php:368
+msgid "Add a Google API key in order to enable automatic font updates."
+msgstr "Adaugă o cheie Google API pentru a valida actualizarea automată a fonturilor."
+
+#: includes/class-easy-google-fonts-admin.php:369
+#: includes/class-easy-google-fonts-admin.php:386
+#: includes/class-easy-google-fonts-admin.php:403
+msgid "Please Note: "
+msgstr "Te rog reține:"
+
+#: includes/class-easy-google-fonts-admin.php:370
+#: includes/class-easy-google-fonts-admin.php:387
+#: includes/class-easy-google-fonts-admin.php:404
+msgid "This screen is used to manage/create new font controls. To preview fonts for each control please visit the typography section in the "
+msgstr "Acest ecran e utilizat pentru gestionarea/crearea unor noi controale de fonturi. Pentru a previzualiza fonturile pentru fiecare control te rog vizitează secțiunea de tipografice din "
+
+#: includes/class-easy-google-fonts-admin.php:371
+#: includes/class-easy-google-fonts-admin.php:388
+#: includes/class-easy-google-fonts-admin.php:405
+msgid "customizer"
+msgstr "personalizator"
+
+#: includes/class-easy-google-fonts-admin.php:376
+msgid "Overview"
+msgstr "Prezentare generală"
+
+#: includes/class-easy-google-fonts-admin.php:384
+msgid "Add CSS Selectors: Add any CSS selectors/styles that you want this custom font control to manage."
+msgstr "Adaugă selectori CSS: adaugă orice selectori/stiluri pe care le vrei gestionate de acest control de font personalizat."
+
+#: includes/class-easy-google-fonts-admin.php:385
+#: includes/class-easy-google-fonts-admin.php:402
+msgid "Force Styles Override (Optional): If your theme is forcing any styles in it's stylesheet for any styles managed by this control then check this option to force a stylesheet override."
+msgstr "Forțează suprascrierea stilurilor (opțional): Dacă tema ta forțează oricare stil în foaia sa de stiluri care e gestionat și de acest control, bifează această opțiune pentru a forța suprascrierea foii de stiluri."
+
+#: includes/class-easy-google-fonts-admin.php:393 views/admin-page/tabs.php:5
+msgid "Edit Font Controls"
+msgstr "Editează controalele de font"
+
+#: includes/class-easy-google-fonts-admin.php:400
+msgid "View all of your custom font controls and the CSS selectors they are managing."
+msgstr "Vezi toate controalele tale de font și selectorii CSS pe care acestea îi gestionează."
+
+#: includes/class-easy-google-fonts-admin.php:401
+msgid "Delete any/all custom font controls."
+msgstr "Șterge oricare/toate controalele de font personalizate."
+
+#: includes/class-easy-google-fonts-admin.php:409 views/admin-page/tabs.php:8
+msgid "Manage Font Controls"
+msgstr "Gestionează controalele de font"
+
+#: includes/class-easy-google-fonts-admin.php:413
+msgid "How to get your Google API Key:"
+msgstr "Cum să obții cheia ta Google API:"
+
+#: includes/class-easy-google-fonts-admin.php:416
+msgid "Visit the <a href=\"https://code.google.com/apis/console\" target=\"_blank\">Google APIs Console</a>."
+msgstr "Vizitează <a href=\"https://code.google.com/apis/console\" target=\"_blank\">Consola API-urilor Google</a>."
+
+#: includes/class-easy-google-fonts-admin.php:417
+msgid "Create a new project."
+msgstr "Crează un nou proiect."
+
+#: includes/class-easy-google-fonts-admin.php:418
+msgid "Select APIs Under the APIs & auth menu."
+msgstr "Selectează API-urile din meniul APIs & auth."
+
+#: includes/class-easy-google-fonts-admin.php:419
+msgid "Turn on Web Fonts Developer API."
+msgstr "Pornește API-ul Web Fonts Developer (Dezvoltator fonturi web)."
+
+#: includes/class-easy-google-fonts-admin.php:420
+msgid "Select Credentials under the APIs & auth menu."
+msgstr "Selectează credențialele din meniul APIs & auth."
+
+#: includes/class-easy-google-fonts-admin.php:421
+msgid "Create a new browser key and <strong>leave the referrer box empty</strong>."
+msgstr "Creează o nouă cheie de navigare și <strong>lasă goală caseta de referent</strong>."
+
+#: includes/class-easy-google-fonts-admin.php:422
+msgid "Once you have an API key, you can enter it in the Google Fonts API Key text field on the \"Advanced\" settings page."
+msgstr "Odată ce ai obținut o cheie API, poți s-o introduci în câmpul Cheie API pentru fonturi Google din pagina de setări \"Avansate\"."
+
+#: includes/class-easy-google-fonts-admin.php:425
+msgid "Once you have entered a valid Google API key this plugin will automatically update itself with the latest fonts from google."
+msgstr "Odată ce ai introdus o cheie validă API Google acest modul va actualiza singur ultimele versiuni ale fonturilor Google."
+
+#: includes/class-easy-google-fonts-admin.php:429
+msgid "Google API Key Instructions"
+msgstr "Instrucțiuni cheie API Google"
+
+#: includes/class-easy-google-fonts-admin.php:434
+msgid "For more information:"
+msgstr "Pentru mai multe informații:"
+
+#: includes/class-easy-google-fonts-admin.php:435
+msgid "Documentation on Google Fonts"
+msgstr "Documentație despre fonturile Google"
+
+#: includes/class-easy-google-fonts-admin.php:436
+msgid "Get Google Fonts API Key"
+msgstr "Ia o cheie API pentru fonturi Google"
+
+#: includes/class-egf-ajax.php:203 includes/class-egf-ajax.php:254
+msgid "Custom Font Control"
+msgstr "Control font personalizat"
+
+#: includes/class-egf-posttype.php:123
+msgid "Google Font Controls"
+msgstr "Controale font Google"
+
+#: includes/class-egf-posttype.php:124
+msgid "Google Font Control"
+msgstr "Control font Google"
+
+#: includes/class-egf-posttype.php:195 includes/class-egf-posttype.php:290
+#: includes/class-egf-register-options.php:538
+#: views/admin-page/dialog-deleted.php:19
+#: views/admin-page/dialog-updated.php:19
+msgid "Font Control"
+msgstr "Control font"
+
+#: includes/class-egf-register-options.php:427
+msgid "Default Typography"
+msgstr "Tipografice implicite"
+
+#: includes/class-egf-register-options.php:429
+#: includes/class-egf-register-options.php:485
+msgid "Your theme has typography support. You can create custom font controls on the google fonts screen in the settings section."
+msgstr "Tema ta are suport pentru tipografice. Poți creea controale de font personalizate în ecranul de Fonturi Google din secțiunea de Setări."
+
+#: includes/class-egf-register-options.php:434
+msgid "Default Theme Fonts"
+msgstr "Fonturile implicite ale temei"
+
+#: includes/class-egf-register-options.php:435
+msgid "Default theme font options"
+msgstr "Opțiunile fonturilor implicite ale temei"
+
+#: includes/class-egf-register-options.php:442
+msgid "Theme Typography"
+msgstr "Tipograficele temei"
+
+#: includes/class-egf-register-options.php:444
+msgid "Any custom font controls that you have created for your website will appear below. To create more controls visit the google fonts screen in the settings section."
+msgstr "Orice controale de font personalizate pe care le-ai creat pentru situl tău vor apare mai jos. Pentru a creea mai multe controale vizitează ecranul de Fonturi Google din secțiunea de Setări."
+
+#: includes/class-egf-register-options.php:449
+msgid "Custom Theme Fonts"
+msgstr "Fonturile personalizate ale temei"
+
+#: includes/class-egf-register-options.php:450
+msgid "Custom theme font options"
+msgstr "Opțiunile fonturilor personalizate ale temei"
+
+#: includes/class-egf-register-options.php:482
+#: includes/class-egf-register-options.php:648
+msgid "Typography"
+msgstr "Tipografice"
+
+#: includes/class-egf-register-options.php:540
+#: views/customizer/control/control-toggle.php:19
+msgid "Edit Font"
+msgstr "Editare font"
+
+#: includes/class-egf-register-options.php:651
+msgid "Your theme has typography support. You can create custom font controls on the Google Fonts screen in the Settings section."
+msgstr "Tema ta are suport pentru tipografice. Poți creea controale de font personalizate în ecranul de Fonturi Google din secțiunea de Setări."
+
+#: includes/class-egf-register-options.php:696
+msgid "Paragraphs"
+msgstr "Paragrafe"
+
+#: includes/class-egf-register-options.php:697
+msgid "Please select a font for the theme's body and paragraph text"
+msgstr "Te rog selectează un font pentru corpul și  paragrafele de text ale temei"
+
+#: includes/class-egf-register-options.php:703
+msgid "Heading 1"
+msgstr "Subtitlu 1"
+
+#: includes/class-egf-register-options.php:704
+msgid "Please select a font for the theme's heading 1 styles"
+msgstr "Te rog selectează un font pentru stilurile subtitlu 1 ale temei"
+
+#: includes/class-egf-register-options.php:710
+msgid "Heading 2"
+msgstr "Subtitlu 2"
+
+#: includes/class-egf-register-options.php:711
+msgid "Please select a font for the theme's heading 2 styles"
+msgstr "Te rog selectează un font pentru stilurile subtitlu 2 ale temei"
+
+#: includes/class-egf-register-options.php:717
+msgid "Heading 3"
+msgstr "Subtitlu 3"
+
+#: includes/class-egf-register-options.php:718
+msgid "Please select a font for the theme's heading 3 styles"
+msgstr "Te rog selectează un font pentru stilurile subtitlu 3 ale temei"
+
+#: includes/class-egf-register-options.php:724
+msgid "Heading 4"
+msgstr "Subtitlu 4"
+
+#: includes/class-egf-register-options.php:725
+msgid "Please select a font for the theme's heading 4 styles"
+msgstr "Te rog selectează un font pentru stilurile subtitlu 4 ale temei"
+
+#: includes/class-egf-register-options.php:731
+msgid "Heading 5"
+msgstr "Subtitlu 5"
+
+#: includes/class-egf-register-options.php:732
+msgid "Please select a font for the theme's heading 5 styles"
+msgstr "Te rog selectează un font pentru stilurile subtitlu 5 ale temei"
+
+#: includes/class-egf-register-options.php:738
+msgid "Heading 6"
+msgstr "Subtitlu 6"
+
+#: includes/class-egf-register-options.php:739
+msgid "Please select a font for the theme's heading 6 styles"
+msgstr "Te rog selectează un font pentru stilurile subtitlu 6 ale temei"
+
+#: includes/controls/class-egf-font-control.php:70
+msgid "Styles"
+msgstr "Stiluri"
+
+#: includes/controls/class-egf-font-control.php:71
+msgid "Appearance"
+msgstr "Aspect"
+
+#: includes/controls/class-egf-font-control.php:72
+msgid "Positioning"
+msgstr "Poziționare"
+
+#: includes/controls/class-egf-font-control.php:274
+msgid "All Subsets"
+msgstr "Toate subseturile"
+
+#: includes/controls/class-egf-font-control.php:275
+msgid "Latin"
+msgstr "Latin"
+
+#: includes/controls/class-egf-font-control.php:276
+msgid "Latin Extended"
+msgstr "Latin extins"
+
+#: includes/controls/class-egf-font-control.php:277
+msgid "Arabic"
+msgstr "Arabic"
+
+#: includes/controls/class-egf-font-control.php:278
+msgid "Cyrillic"
+msgstr "Chirilic"
+
+#: includes/controls/class-egf-font-control.php:279
+msgid "Cyrillic Extended"
+msgstr "Chirilic extins"
+
+#: includes/controls/class-egf-font-control.php:280
+msgid "Devanagari"
+msgstr "Devanagari"
+
+#: includes/controls/class-egf-font-control.php:281
+msgid "Greek"
+msgstr "Grecesc"
+
+#: includes/controls/class-egf-font-control.php:282
+msgid "Greek Extended"
+msgstr "Grecesc extins"
+
+#: includes/controls/class-egf-font-control.php:283
+msgid "Khmer"
+msgstr "Khmer"
+
+#: includes/controls/class-egf-font-control.php:284
+msgid "Telugu"
+msgstr "Telugu"
+
+#: includes/controls/class-egf-font-control.php:285
+msgid "Vietnamese"
+msgstr "Vietnamez"
+
+#: includes/controls/class-egf-font-control.php:311
+#: includes/controls/class-egf-font-control.php:331
+#: includes/controls/class-egf-font-control.php:369
+msgid "None"
+msgstr "Niciunul"
+
+#: includes/controls/class-egf-font-control.php:312
+msgid "Underline"
+msgstr "Subliniat"
+
+#: includes/controls/class-egf-font-control.php:313
+msgid "Line-through"
+msgstr "Liniat"
+
+#: includes/controls/class-egf-font-control.php:314
+msgid "Overline"
+msgstr "Tăiat"
+
+#: includes/controls/class-egf-font-control.php:332
+msgid "Uppercase"
+msgstr "Majuscule"
+
+#: includes/controls/class-egf-font-control.php:333
+msgid "Lowercase"
+msgstr "Minuscule"
+
+#: includes/controls/class-egf-font-control.php:334
+msgid "Capitalize"
+msgstr "Majuscule"
+
+#: includes/controls/class-egf-font-control.php:351
+msgid "Block"
+msgstr "Bloc"
+
+#: includes/controls/class-egf-font-control.php:352
+msgid "Inline Block"
+msgstr "Bloc în linie"
+
+#: includes/controls/class-egf-font-control.php:370
+msgid "Solid"
+msgstr "Solid"
+
+#: includes/controls/class-egf-font-control.php:371
+msgid "Dashed"
+msgstr "Întreruptă"
+
+#: includes/controls/class-egf-font-control.php:372
+msgid "Dotted"
+msgstr "Punctată"
+
+#: includes/controls/class-egf-font-control.php:373
+msgid "Double"
+msgstr "Dublă"
+
+#: includes/customizer/class-egf-customize-manager.php:379
+msgid "Theme Default"
+msgstr "Implicit al temei"
+
+#: views/admin-page/advanced-screen.php:17
+msgid "Google Fonts API Key"
+msgstr "Cheie API fonturi Google"
+
+#: views/admin-page/advanced-screen.php:18
+msgid "Please enter your google fonts api key in the box below and click the Save Google API Key button."
+msgstr "Te rog introdu \tcheia API pentru fonturi Google în caseta de mai jos și dă clic pe butonul Salvează cheia API Google."
+
+#: views/admin-page/advanced-screen.php:23
+msgid "Your Google API Key is valid and automatic font updates are enabled."
+msgstr "Cheia ta API Google este validă și actualizarea automată a fonturilor este validată."
+
+#: views/admin-page/advanced-screen.php:24
+msgid "Please enter a valid Google API Key"
+msgstr "Te rog introdu o cheie validă API Google"
+
+#: views/admin-page/advanced-screen.php:45
+msgid "Save Google API Key"
+msgstr "Salvează cheia API Google"
+
+#: views/admin-page/advanced-screen.php:60
+msgid "What happens after I enter a valid Google API key?"
+msgstr "Ce se întâmplă după ce ai introdus o cheie validă API Google?"
+
+#: views/admin-page/advanced-screen.php:61
+msgid "Your theme will update itself with the latest google fonts automatically."
+msgstr "Tema ta se va auto-actualiza  cu ultimele fonturi google în mod automat."
+
+#: views/admin-page/create-screen.php:9 views/admin-page/edit-screen.php:8
+msgid "Control Name"
+msgstr "Nume control"
+
+#: views/admin-page/create-screen.php:10 views/admin-page/edit-screen.php:9
+msgid "Enter control name here"
+msgstr "Introdu aici numele controlului tău"
+
+#: views/admin-page/create-screen.php:38 views/admin-page/create-screen.php:93
+msgid "Create Font Control"
+msgstr "Creează un control de font"
+
+#: views/admin-page/create-screen.php:56
+msgid "Give your font control a name above, then click Create Font Control."
+msgstr "Deasupra, dă un nume controlului tău de font și apoi dă clic pe Creează control font."
+
+#: views/admin-page/create-screen.php:65 views/admin-page/edit-screen.php:105
+msgid "Delete Control"
+msgstr "Șterge control"
+
+#: views/admin-page/dialog-deleted.php:21
+msgid "%1$s has been deleted."
+msgstr "%1$s a fost șters."
+
+#: views/admin-page/dialog-updated.php:22
+msgid "%1$s has been updated. Please visit the %2$s to manage this control."
+msgstr "%1$s a fost actualizat. Te rog vizitează %2$s pentru a gestiona acest control."
+
+#: views/admin-page/edit-screen.php:38 views/admin-page/edit-screen.php:134
+msgid "Save Font Control"
+msgstr "Salvează controlul de font"
+
+#: views/admin-page/edit-screen.php:57
+msgid "Add CSS Selectors"
+msgstr "Adaugă selectorii CSS"
+
+#: views/admin-page/edit-screen.php:59
+msgid "Type each CSS selector that you would like this font control to manage in the box below. Use the tab key to separate each selector."
+msgstr "Tastează fiecare selector pe care vrei să-l gestioneze acest control de cont în caseta de mai jos. Folosește tasta Tab pentru a separa fiecare selector."
+
+#: views/admin-page/edit-screen.php:72
+msgid "Force Styles Override (Optional)"
+msgstr "Forțează suprascrierea selectorilor (opțional)"
+
+#: views/admin-page/edit-screen.php:73
+msgid "Please check the box below if you wish to override all of the styles for the selectors above that are forced in your theme's stylesheet."
+msgstr "Te rog bifează caseta de mai jos dacă dorești să suprascrii toate stilurile pentru selectorii de deasupra ce sunt forțați în foaia de stiluri a temei tale."
+
+#: views/admin-page/form-manage-control.php:22
+msgid "Select a font control to edit:"
+msgstr "Selectează un control de font pentru editare:"
+
+#: views/admin-page/form-manage-control.php:28
+msgid "Select"
+msgstr "Selectează"
+
+#: views/admin-page/form-manage-control.php:30
+msgid "create a new font control"
+msgstr "creează un nou control de font"
+
+#: views/admin-page/form-manage-control.php:33
+msgid "Create a new Font Control."
+msgstr "Creează un nou control de font."
+
+#: views/admin-page/manage-screen.php:28 views/admin-page/manage-screen.php:42
+msgid "Create a new font control for your theme:"
+msgstr "Creează un nou control de font pentru tema ta:"
+
+#: views/admin-page/manage-screen.php:29 views/admin-page/manage-screen.php:43
+msgid "Create a New Font Control"
+msgstr "Creează un nou control de font"
+
+#: views/admin-page/manage-screen.php:41
+msgid "Manage your custom font controls here or:"
+msgstr "Gestionează controalele tale de font aici sau:"
+
+#: views/admin-page/manage-screen.php:49
+msgid "Font Control Name"
+msgstr "Nume control de font"
+
+#: views/admin-page/manage-screen.php:50
+msgid "CSS Selectors"
+msgstr "Selectori CSS"
+
+#: views/admin-page/manage-screen.php:51
+msgid "Force Styles"
+msgstr "Forțează stilurile"
+
+#: views/admin-page/manage-screen.php:88
+msgid "Edit"
+msgstr "Editare"
+
+#: views/admin-page/manage-screen.php:88
+msgid "Delete"
+msgstr "Șterge"
+
+#: views/admin-page/manage-screen.php:107
+msgid "Delete All Controls"
+msgstr "Șterge toate controalele"
+
+#: views/admin-page/page-start.php:33
+msgid "Cheatin&#8217; uh?"
+msgstr "Trișezi, ha?"
+
+#: views/admin-page/tabs.php:11
+msgid "Advanced"
+msgstr "Avansat"
+
+#: views/customizer/control/appearance/background-color.php:22
+msgid "Background Color"
+msgstr "Culoare fundal"
+
+#: views/customizer/control/appearance/background-color.php:24
+#: views/customizer/control/appearance/font-color.php:24
+#: views/customizer/control/positioning/border/bottom.php:55
+#: views/customizer/control/positioning/border/left.php:55
+#: views/customizer/control/positioning/border/right.php:55
+#: views/customizer/control/positioning/border/top.php:55
+msgid "Hex Value"
+msgstr "Valoare hexa"
+
+#: views/customizer/control/appearance/font-color.php:22
+msgid "Font Color"
+msgstr "Culoare font"
+
+#: views/customizer/control/appearance/font-size.php:23
+msgid "Font Size"
+msgstr "Dimensiune font"
+
+#: views/customizer/control/appearance/font-size.php:26
+#: views/customizer/control/appearance/letter-spacing.php:25
+#: views/customizer/control/appearance/line-height.php:25
+#: views/customizer/control/control-title.php:19
+#: views/customizer/control/positioning/border/bottom.php:43
+#: views/customizer/control/positioning/border/left.php:43
+#: views/customizer/control/positioning/border/right.php:43
+#: views/customizer/control/positioning/border/top.php:43
+#: views/customizer/control/positioning/border-radius/bottom.php:25
+#: views/customizer/control/positioning/border-radius/left.php:25
+#: views/customizer/control/positioning/border-radius/right.php:25
+#: views/customizer/control/positioning/border-radius/top.php:25
+#: views/customizer/control/positioning/margin/bottom.php:25
+#: views/customizer/control/positioning/margin/left.php:25
+#: views/customizer/control/positioning/margin/right.php:25
+#: views/customizer/control/positioning/margin/top.php:25
+#: views/customizer/control/positioning/padding/bottom.php:25
+#: views/customizer/control/positioning/padding/left.php:25
+#: views/customizer/control/positioning/padding/right.php:25
+#: views/customizer/control/positioning/padding/top.php:25
+msgid "Reset"
+msgstr "Resetare"
+
+#: views/customizer/control/appearance/letter-spacing.php:23
+msgid "Letter Spacing"
+msgstr "Spațiere litere"

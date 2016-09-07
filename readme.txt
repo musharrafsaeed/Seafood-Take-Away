@@ -1,316 +1,225 @@
-=== WooCommerce ===
-Contributors: automattic, mikejolley, jameskoster, claudiosanches, jshreve, coderkevin, woothemes, BFTrick
-Tags: ecommerce, e-commerce, store, sales, sell, shop, cart, checkout, downloadable, downloads, paypal, storefront
-Requires at least: 4.4
-Tested up to: 4.6
-Stable tag: 2.6.4
-License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+=== One-Click Child Theme ===
+Contributors: tychay  
+Donate link: http://www.kiva.org/lender/tychay  
+Tags: theme, child theme, child theme creator, child theme creator, CSS, stylesheet, custom theme, customize theme, shared hosting  
+Requires at least: 3.0  
+Tested up to: 4.1.1  
+Stable tag: trunk  
 
-WooCommerce is a powerful, extendable eCommerce plugin that helps you sell anything. Beautifully.
+Adds a Theme option to any active theme allowing you to make a child theme.
 
 == Description ==
 
-WooCommerce is a free eCommerce plugin that allows you to sell anything, beautifully. Built to integrate seamlessly with WordPress, WooCommerce is the world’s favorite eCommerce solution that gives both store owners and developers complete control.
+Please visit the [plugin homepage](http://terrychay.com/wordpress-plugins/one-click-child-theme).
 
-With endless flexibility and access to hundreds of free and premium WordPress extensions, WooCommerce now powers 30% of all online stores -- more than any other platform.
+Useful for shared hosts, this allows you to easily create child themes from any
+theme just by clicking.
 
-[youtube https://www.youtube.com/watch?v=1KahlicghaE]
+Ever since WordPress 3.0, you shouldn’t directly modify CSS of any downloaded
+themes because if you update the theme, your changes will be destroyed. Instead, it is recommended that you create a child theme and edit the CSS
+there so that updates to the parent theme will be inherited instead of destroy
+your changes.
 
-= Sell anything, anywhere =
-With WooCommerce, you can sell both physical and digital goods in all shapes and sizes, offer product variations, multiple configurations, and instant downloads to shoppers, and even sell affiliate goods from online marketplaces.
+The problem many run into is currently the only way to child theme something
+is edit files on the filesystem. This is non-intuitive for shared-hosting
+sites with one-click WordPress installs (it usually involves a “shell account”
+or learning how to use FTP).
 
-With premium extensions, you can offer bookings, memberships, and recurring subscriptions. Perhaps you’d like to sell monthly subscriptions for physical goods, or offer your members a discount on digital downloads? It’s all possible.
+This attempts to get around that issue, by adding a button to the themes page
+to allow you to child theme the page. (It’s not really one-click, though.)
 
-= Ship wherever you like =
-Offer free shipping, flat rate shipping, or make real-time calculations. Limit your shipments to specific countries, or open your store up to the world. Shipping is highly configurable, and WooCommerce even supports drop shipping.
-
-= Extensive payment options =
-WooCommerce comes bundled with the ability to accept major credit cards, PayPal, BACS (bank transfers), and cash on delivery. Need additional options? More than 140 region-specific gateways integrate with WooCommerce, including popular choices like Stripe, Authorize.Net, and Amazon Payments.
-
-= You control it all -- forever =
-WooCommerce gives you complete control of your store, from taxes to stock levels to customer accounts. Add and remove extensions, change your design, and switch settings as you please. It’s all under your control.
-
-One of the biggest risks of using a hosted eCommerce platform is what happens to your store if the provider closes up shop. With WooCommerce, you have complete control, so there’s never any reason to worry. Your data belongs to you -- and it’s kept secure, thanks to regular audits by industry leaders.
-
-= Define your style with Storefront =
-
-[Storefront](https://wordpress.org/themes/storefront/) is a free WordPress theme available to any WooCommerce store. Along with deep WooCommerce integration, Storefront prioritizes speed and uptime while eliminating theme and plugin conflicts during major updates.
-
-Define your style even further by customizing Storefront to your liking or choosing from one of our several [Storefront child themes](https://woocommerce.com/product-category/themes/storefront-child-theme-themes/). It’s all up to you, and all open source.
-
-= Built with developers in mind =
-
-Extendable, adaptable, and open source -- WooCommerce was created with developers in mind. With its strong, robust framework, you can scale your client’s store all the way from basic to high-end (infinity and beyond).
-
-Built with a REST API, WooCommerce can integrate with virtually any service. Your store’s data can be accessed anywhere, anytime, 100% securely. WooCommerce allows developers to easily create, modify, and grow a store that meets their specifications.
-
-No matter the size of the store you want to build, WooCommerce will scale to meet your requirements. With a growing collection of more than 300 extensions, you can enhance each store’s features to meet your client’s unique needs -- or even create your own solution.
-
-If security is a concern, rest easy. WooCommerce is audited by a dedicated team of developers working around the clock to identify and patch any and all discovered bugs.
-
-We also support WooCommerce and all its extensions with comprehensive, easily-accessible documentation. With our docs, you’ll learn how to create the exact site your client needs.
-
-= Extensions galore =
-
-WordPress.org is home to some amazing extensions for WooCommerce, including:
-
-- [Google Analytics](https://wordpress.org/plugins/woocommerce-google-analytics-integration/)
-- [Delivery Notes](https://wordpress.org/plugins/woocommerce-delivery-notes/)
-- [PDF Invoices and Packing Slips](https://wordpress.org/plugins/woocommerce-pdf-invoices-packing-slips/)
-- [Affiliates Integration Light](https://wordpress.org/plugins/affiliates-woocommerce-light/)
-- [New Product Badges](https://wordpress.org/plugins/woocommerce-new-product-badge/)
-
-Keen to see them all? Search WordPress.org for ‘WooCommerce’ to dive in.
-
-If you’re looking for something endorsed and maintained by the developers who built WooCommerce, there are a plethora of premium eCommerce extensions, the most popular of which include:
-
-- [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/)
-- [WooCommerce Memberships](https://woocommerce.com/products/woocommerce-memberships/)
-- [WooCommerce Bookings](https://woocommerce.com/products/woocommerce-bookings/)
-- [Dynamic Pricing](https://woocommerce.com/products/dynamic-pricing/)
-- [Table Rate Shipping](https://woocommerce.com/products/table-rate-shipping/)
-- [Product CSV Import Suite](https://woocommerce.com/products/product-csv-import-suite/)
-
-And there’s plenty more where they came from. Visit our [extensions page](https://woocommerce.com/product-category/woocommerce-extensions/) to find out everything you’re capable of and all that's possible with premium WooCommerce extensions.
-
-= Join our growing community =
-
-When you download WooCommerce, you join a community of more than a million store owners, developers, and WordPress enthusiasts. We’re one of the fastest-growing open source communities online, and whether you’re a n00b or a Ninja, we’d love to have you!
-
-If you’re interested in contributing to WooCommerce we’ve got more than 350 contributors, and there’s always room for more. Head over to the [WooCommerce GitHub Repository](https://github.com/woothemes/woocommerce) to find out how you can pitch in.
-
-Want to add a new language to WooCommerce? Swell! You can contribute via [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/woocommerce).
-
-And, finally, consider joining or spearheading a WooCommerce Meetup locally, more about those [here](https://woocommerce.com/woocommerce/meetups/).
+Inspired by @janeforshort's and @designsimply's WordCamp SF 2011 talk on CSS
+theming as requested by @sfgirl for [her blog](http://pintsizedmusings.com/).
 
 == Installation ==
 
-= Minimum Requirements =
+###Installing The Plugin###
 
-* WordPress 3.8 or greater
-* PHP version 5.2.4 or greater
-* MySQL version 5.0 or greater
-* Some payment gateways require fsockopen support (for IPN access)
+Extract all files from the ZIP file, making sure to keep the file structure
+intact, and then upload it to `/wp-content/plugins/`. Then just visit your
+admin area and activate the plugin. That's it!
 
-= Automatic installation =
+**See Also:** ["Installing Plugins" article on the WP Codex](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
 
-Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of WooCommerce, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
+###Using the plugin###
 
-In the search field type “WooCommerce” and click Search Plugins. Once you’ve found our eCommerce plugin you can view details about it such as the point release, rating and description. Most importantly of course, you can install it by simply clicking “Install Now”.
-
-= Manual installation =
-
-The manual installation method involves downloading our eCommerce plugin and uploading it to your webserver via your favourite FTP application. The WordPress codex contains [instructions on how to do this here](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
-
-= Updating =
-
-Automatic updates should work like a charm; as always though, ensure you backup your site just in case.
-
-If on the off-chance you do encounter issues with the shop/category pages after an update you simply need to flush the permalinks by going to WordPress > Settings > Permalinks and hitting 'save'. That should return things to normal.
-
-= Dummy data =
-
-WooCommerce comes with some dummy data you can use to see how products look; either import dummy_data.xml via the [WordPress importer](https://wordpress.org/extend/plugins/wordpress-importer/) or use our [CSV Import Suite plugin](https://woocommerce.com/products/product-csv-import-suite/) to import dummy_data.csv and dummy_data_variations.csv.
-
-== Frequently Asked Questions ==
-
-= Where can I find WooCommerce documentation and user guides? =
-
-For help setting up and configuring WooCommerce please refer to our [user guide](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/)
-
-For extending or theming WooCommerce, see our [codex](https://docs.woocommerce.com/documentation/plugins/woocommerce/woocommerce-codex/).
-
-= Where can I get support or talk to other users? =
-
-If you get stuck, you can ask for help in the [WooCommerce Plugin Forum](https://wordpress.org/support/plugin/woocommerce).
-
-For help with premium add-ons from WooThemes, use [our helpdesk](https://support.woothemes.com/).
-
-= Will WooCommerce work with my theme? =
-
-Yes; WooCommerce will work with any theme, but may require some styling to make it match nicely. Please see our [codex](https://docs.woocommerce.com/documentation/plugins/woocommerce/woocommerce-codex/) for help. If you're looking for a theme with built in WooCommerce integration we recommend [Storefront](https://woocommerce.com/storefront/).
-
-= Where can I request new features, eCommerce themes and extensions? =
-
-You can vote on and request new features and extensions in our [WooIdeas board](http://ideas.woothemes.com/forums/133476-woocommerce)
-
-= Where can I report bugs or contribute to the project? =
-
-Bugs can be reported either in our support forum or preferably on the [WooCommerce GitHub repository](https://github.com/woothemes/woocommerce/issues).
-
-= Where can I find the REST API documentation? =
-
-You can find the documentation of our REST API on the [WooCommerce REST API Docs](https://woothemes.github.io/woocommerce-rest-api-docs/).
-
-= WooCommerce is awesome! Can I contribute? =
-
-Yes you can! Join in on our [GitHub repository](http://github.com/woothemes/woocommerce/) :)
+If you have the capability to install themes in your admin, then the themes menu
+will have a new submenu called "Child Theme". Clicking on this gives you a form
+that will allow you to create a child theme based on the current active theme.
 
 == Screenshots ==
 
-1. The slick WooCommerce settings panel.
-2. WooCommerce products admin.
-3. Product data panel.
-4. WooCommerce sales reports.
-5. A single product page.
-6. A product archive (grid).
+1. To use the plugin, click one of these two palces in the Appearance section of your `wp_admin` 
+2. Fill out this form
+3. You will see the theme will be successfully child-themed, but will track the parent theme correctly.
 
-== Changelog ==
+== Frequently Asked Questions ==
 
-= 2.6.4 - 26/07/16 =
-* Fix - Security - Only allow image MIME type upload via REST APIs.
-* Fix - Shipping method title display in COD settings.
-* Fix - Order date input in Edge browser.
-* Fix - Ensure value is not null in variations to support empty show_option_none setting.
-* Fix - get_the_title does not need escape in grouped template file.
-* Fix - Ensure WC_ROUNDING_PRECISION is defined and use it as a low precision boundary in wc_get_rounding_precision().
-* Fix - Response body should be a string in webhook class.
-* Fix - Use h2 instead of h3 headings in profile screen.
-* Dev - API - Allow Allow meta_key/value filters for products.
-* Dev - CLI - Explode tags and category IDs to allow multiple comma separated values.
-* Dev - add $order arg to woocommerce_admin_order_item_class and woocommerce_admin_html_order_item_class filters.
+= I already modified my CSS in the existing theme? How do I use One Click Child Theme to fix this? =
 
-= 2.6.3 - 19/07/16 =
-* Fix - Security - Escape captions in product-thumbnail and product-image templates (template versions have been bumped).
-* Fix - Fixed how we calculate shipping tax rates when using more than one tax class.
-* Fix - When duplicating product variations, set title, name, and guid.
-* Fix - Normalized 'read more' buttons.
-* Fix - Add to cart notices for grouped products.
-* Fix - Do not sanitize passwords in the settings API.
-* Fix - Handle shipping zone location range conversion during update (dashes to ...).
-* Fix - Always remove commas while processing flat rate costs.
-* Fix - Ensures account page layout is only applied to desktop-sized displays.
-* Fix - When getting layered nav counts, take search parameters into consideration.
-* Fix - Free shipping show/hide javascript.
-* Fix - Strip hash characters when exporting reports.
-* Fix - Use permission id to revoke access to downloads to prevent removing wrong rows.
-* Fix - When duplicating product variations, set title, name, and guid.
-* Fix - Set more appropriate default rounding precision based on currency decimal places.
-* Fix - Fix message styles for empty carts.
-* Fix - Fixed the load of the WC_Email_Customer_On_Hold_Order class.
-* Fix - Don't perform cart update on search submit.
-* Dev - API - Added support for WP REST API with custom URL prefixes.
-* Dev - API - Delete variations when deleting a variable product.
-* Dev - API - Fixed how we check for product types.
-* Dev - Added woocommerce_cart_id filter.
-* Dev - Add shortcode name param to shortcode_atts function calls.
-* Dev - Post custom data when fetching a variation via ajax.
-* Dev - Include child prices in grouped_price_html filter.
-* Dev - Allow filtering of variation stock quantity.
-* Dev - Added $_product argument to 'woocommerce_restock_refunded_item' hook.
-* Dev - Added a filter hook for the wc_ajax endpoint url.
-* Tweak - Include account page link in new customer account emails.
-* Tweak - Updated all URLs from WooThemes.com to WooCommerce.com.
-* Tweak - Cache the result of WC_Comments::wp_count_comments() in a transient (improves performance).
+You can wait for the theme to get updated and have it break it, or you can:
 
-= 2.6.2 - 30/06/16 =
-* Fix - Set max index length on woocommerce_payment_tokenmeta table for utf8mb4 support.
-* Fix - is_available check for legacy shipping methods.
-* Fix - wc_add_to_cart_message() when non-array is passed.
-* Fix - Maximum coupon check should allow the 'maximum' value.
-* Fix - Product coupon logic to avoid applying non-applicable coupons.
-* Fix - Potential notices when leaving out 'default' field for shipping instances.
-* Fix - wp_cache_flush after term meta migration/update.
-* Fix - wc_add_to_cart_message() when non-array is passed.
-* Fix - woocommerce_redirect_single_search_result type check was incorrect.
-* Fix - Javascript show/hide of option in free shipping method.
-* Fix - Convert ellipsis to three periods when saving postcodes.
-* Fix - Prevent get_terms returning duplicates.
-* Fix - Removed non-existent country (Netherlands Antilles) from https://en.wikipedia.org/wiki/ISO_3166-1.
-* Fix - Grouped product range display when child is free.
-* Fix - Remove discount when checking free shipping min amount.
-* Fix - Prevent blocking the same element multiple times on cart page.
-* Fix - Don't sync ratings right after a new comment to prevent rating sync whilst rating meta does not exist yet.
-* Fix - Fix product RSS feeds when using shop base.
-* Fix - woocommerce_local_pickup_methods comparison by stripping instance IDs before the check.
-* Fix - During password resets, use cookie to store reset key and user login to avoid them being exposed in the URL/referer headers.
-* Dev - API - Fixed variable product stock at product level.
-* Dev - CLI - Introduces `woocommerce_cli_get_product_variable_types` filter.
-* Dev - Allow notices to be grouped on checkout after certain events.
-* Dev - API - Allows save images by ID with product variations.
-* Tweak - Made customer pay link display if order needs_payment() rather than checking pending status.
-* Tweak - Zones - Wording clarifications.
-* Tweak - Zones - Match zones with postcodes but no country.
-* Tweak - Zones - Match zones with no regions as 'everywhere'.
-* Tweak - Added view_admin_dashboard cap for disabling the admin access restriction in custom roles.
-* Tweak - Revised stock display based on feedback to hide 'in stock' message if stock management is off and only show available on backorder if notifying customer.
-* Tweak - Allow external product SKUs.
-* Tweak - PT (Portugal) and JP (Japan) postcode formats.
-* Tweak - Sort products from the `[product_category]` shortcode by menu order.
-* Tweak - Improve wc_orders_count() performance by running a query to count only posts of the given status.
-* Tweak - To allow my account page tabs to be disabled without code, you can now set the endpoint value to a blank string.
+1. Go through the steps for installing and running the plugin above to create a child theme
+2. Click on the [Appearance &gt; Editor](http://codex.wordpress.org/Appearance_Editor_SubPanel) in your admin dashboard menu (or network admin menu if multi-site).
+3. Select the parent theme in the drop down on the right, click `Select` and make sure you are editing the file `style.css` (select on the right).
+4. Copy the changes you made, if you managed to remember them.
+5. Select the child theme you created to the drop down in the left (you should be editing `style.css`).
+6. Paste your changes to the end of the file.
 
-= 2.6.1 - 16/06/16 =
-* Fix - Added missing localized format for line taxes in orders screen to prevent total miscalculation in manual orders.
-* Fix - Improved the hour and time fields validation pattern on the orders screen.
-* Fix - PayPal does not allow free products, but paid shipping. Workaround by sending shipping as a line item if it is the only cost.
-* Fix - SKUs prop on products shortcode.
-* Fix - Layered nav counts when term_id does not match term_taxonomy_id (before splitting).
-* Fix - Fixed referer links from cart messages in WP 4.4.
-* Fix - Fix the showing/hiding of panels when terms do not exist by using wc_get_product_types() for retrieving product types.
-* Dev - content-product.php and content-product_cat.php contained the wrong version.
-* Dev - Show "matching zone" notice on the frontend when shipping debug mode is on.
-* Dev - Restored missing WC_Settings_API::init_form_fields() method to prevent potential errors in 3rd party gateways.
-* Dev - API - Fixed returned data from product images (changed `title` to `name`).
-* Dev - API - Fixed products schema for `grouped_products`.
-* Dev - API - Fixed products attribute options when contains `,`.
-* Tweak - Hide 'payment methods' screen if no methods support it.
-* Tweak - If shipping method count changes, reset to default.
-* Tweak - Avoid normalization of zone postcodes so wildcard matching can be performed on postcodes with spaces. E.g. SP1 *
-* Tweak - Allow max_fee in addition to min_fee in flat rate costs fields.
-* Tweak - Wrap order_schema_markup() output in hidden div in case script tag is stripped.
+= Your plugin broke my site! =
 
-= 2.6.0 - 14/06/16 =
-* Feature - Introduced Shipping Zone functionality, and re-usable instance based shipping methods.
-* Feature - Tabbed "My Account" area.
-* Feature - Cart operations now use ajax (item quantities/remove, coupon apply/remove, shipping options).
-* Feature - Layered nav; filter by rating.
-* Feature - On-hold order emails.
-* Dev - All new REST API based on the WP REST API. The old WC REST API is still available, but the new one is preferred.
-* Dev - Added ability for shipping methods to store meta data to the order.
-* Dev - Added Payment Gateway Tokenization API for storing and retrieving tokens in a standardized manner.
-* Dev - Migrated custom term meta implementation to WP Term Meta.
-* Dev - Added new wc_get_orders() function to get order objects and ids instead of direct get_posts() calls.
-* Dev - Made coupon optional in cart has_discount() method.
-* Dev - Made the review template more editable.
-* Dev - Allowed product constructors to throw exceptions if invalid.
-* Dev - Wrapped currency symbols in a span to allow styling or replacement.
-* Fix - Update download permission user and email when changed.
-* Fix - Fixed shipping method unregistration.
-* Fix - Stopped create and update webhooks firing at the same time for products.
-* Fix - Allow COD to set on-hold status if the order contains downloads.
-* Fix - Force CURL to use TLS 1.2 for PayPal connections.
-* Tweak - Improved lost password flow.
-* Tweak - Show payment dates on order screen.
-* Tweak - Ignore catalog visibility on products shortcode when specifying IDs or SKUs.
-* Tweak - Added context to checkout error messages.
-* Tweak - Added SKU field to grouped products.
-* Tweak - Moved SKU field to inventory tab.
-* Tweak - Support qty display in cart messages.
-* Tweak - Hide min order amount field when not needed in shipping settings.
-* Tweak - If shipping < 999.99, use 'shipping' arg when passing values to PayPal.
-* Tweak - Show net sales on dashboard.
-* Tweak - Replaced credit card icons with SVG.
-* Tweak - Enqueue scripts on pages with checkout shortcodes.
-* Tweak - Color code the manual, system and customer notes.
-* Tweak - Layered Nav Refactoring to improve performance.
-* Tweak - Removed tag/cat classes from loops since WP does the same.
-* Tweak - Added hash check for orders so that if the cart changes before payment, a new order is made.
-* Tweak - Removed unused 'view mode' under screen options.
-* Tweak - Added 110 new currencies (including Bitcoin).
-* Tweak - New background updater for data upgrades.
-* Tweak - Blank slates in admin post screens.
-* Tweak - Added blockui when variations are being retrieved via ajax.
-* Tweak - Hide empty taxes by default (filterable).
-* Tweak - Allow failed orders to be edited.
-* Tweak - If there are no shipping methods setup, don’t prompt for shipping at checkout.
-* Tweak - Allowed country exclusion, rather than just inclusion, in ‘sell to’ setting.
-* Lots, lots more - [see the comparison here](https://github.com/woothemes/woocommerce/compare/2.5.5...2.6.0).
+I didn't think that's possible, but if so, I want to fix it!
 
-[See changelog for all versions](https://raw.githubusercontent.com/woothemes/woocommerce/master/CHANGELOG.txt).
+First, check what really happened. Is your admin console broken, is the
+theme broken (go to a new window and check your blog). If a theme fails to
+work and for some reason I didn't catch that error, WordPress should restore
+the previous theme (or whatever the default theme is) so your actual blog
+should be okay and recoverable. If for some reason it didn't default to the
+right theme, go into the Appearance menu and re-enable the parent theme.
 
-== Upgrade Notice ==
+Then go to the [support page](https://wordpress.org/support/plugin/one-click-child-theme),
+describe what happened (screenshots help too) and anything else and we'll try
+our best to help you.
 
-= 2.6 =
-2.6 is a major update. It is important that you make backups and ensure themes and extensions are 2.6 compatible before upgrading, in particular shipping method extensions (e.g. Table Rate Shipping) since 2.6 introduces Shipping Zone functionality. [Read more here](https://woocommerce.wordpress.com/2016/06/14/say-hello-to-woocommerce-2-6-zipping-zebra/).
+= I can't find this Theme Option button you are alluding to in the documentation? =
+
+I really need to update the screenshot. It's still there, but the location has
+changed as WordPress has been upgraded.
+
+1. Go to the `Appearance` tab
+2. Click on the Active theme (it should say "Theme Details" when you mouseover)
+3. An overlay appears. The Theme option button "Child Theme" is there
+
+= When I go to the Child Theme menu, it says "X is already a child theme" and I can't create a child theme. =
+
+Making grandchildren of themes is non-trivial, so I disabled the form if it is
+already a child theme. Instead I offer the ability to repair the Child theme or
+copy template files from the parent into the child for editing.
+
+= Can the plugin be deleted after I create a Child Theme with it? =
+
+Yes. The main purpose of the plugin is fulfilled. Congratulations!
+(Personally, I'd disable it, instead of delete it.)
+
+Having said that, there are some things that this plugin help with after your
+child theme's birth. Think of it as a parenting guide for your new child theme.
+
+= Features like? =
+
+* Repair a child theme created in the old style.
+* Copy templates over from your parent theme into your child theme.
+* Replace the child theme screenshot with one of your site
+
+When you have an active child theme, click on `Appearance > Child Theme` to
+get to these functions.
+
+= What does the "Repair Child Theme" button do? =
+
+WordPress changed the [recommended way of handling parent references in child themes](http://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme).
+If this plugin detects your child theme was done in the old style, it shows
+this button. Clicking on it will make the plugin attempt a repair into the
+new style.
+
+= How come the screenshot service just shows a big 404 =
+
+The most likely scenario is your WordPress `site_url` isn't publicly
+accessible from the web.
+
+= What's with the debugging/error code on child theme creation? =
+
+You have an old version of this plugin, please update to the latest one.
+
+I wrote this plugin back **during** a talk at WordCamp SF 2011 about CSS
+Themeing in order to help the person sitting next to me. I just didn't get to
+some things… for years. Sorry about that! The debugging code didn't affect any
+behavior — it was a sign of me being lazy and not realizing that the plugin
+would have tens of thousands of avid users!
+
+= The theme screenshot service doesn't seem to be working. =
+
+First of all, is the blog accessible from the public Internet? If not, then
+that is the problem.
+
+But sometimes, even then, mshots seems a bit on the slow side. The plugin
+uses WordPress.com’s mShots service. You know, I worked at Automattic for years
+on WordPress.com and I still haven't quite figured out mShots. Eventually
+I've gotten the animated loading GIF to be replaced by a real retina-ready JPEG
+screenshot of my blog homepage. Trust me, when it works, it works great! But
+the experience may be a little like trying to get a vending machine to accept
+a crumpled dollar bill — Americans know what I mean. Suffice it to say that
+you might have to hit reload a couple times, or just fiddle around a bit.
+
+= Why should I use your plugin and not [_insert competitor here_](https://wordpress.org/plugins/search.php?q=child+theme) =
+
+What? People have forked my idea because I left [Automattic](http://automattic.com)
+for [Wikimedia](http://wikimediafoundation.org/wiki/Home) three years ago?
+This means war! Other plugins, you're going down! Steel yourself for the
+pent-up aggression of a pointy-haired boss being kept away from a
+programming console for years.
+
+As to why this plugin is the best? OCCT is Coke Classic to every other plugin's
+[New Coke](http://en.wikipedia.org/wiki/New_Coke). Experience the original
+plugin taste your parents knew and loved! Plus, I have
+four-year old screenshots on my theme page, a way cooler plugin icon, and a
+baby picture of me and my brother on the banner. Also, this plugin strikes
+the right balance of features, is free (no "pro" version and not even a PayPal
+link), and (now that I've figured out how to admin the plugin page), I've
+been adding volunteers to support it. Even if I sucked into the vortex of
+middle management again (isn't going to happen, that s--t is **EVIL**) this
+plugin will live forever in the hearts and minds of bloggers everywhere!
+
+Which reminds me, if you want to help out, we're cool with that. Like WordPress
+itself, this is a volunteer endeavor. Contact us in the support pages and we'll
+hook you up!
+
+== ChangeLog ==
+
+**Version 1.7**
+
+* Documentation: FAQ fixes
+
+**Version 1.6**
+
+* Feature: Added ability to generate theme screenshots (thanks [@janeforshort/@jenmylo](https://jane.wordpress.com/) for the idea)
+* Feature: Redirect to theme page on child theme creation
+* Feature: Successful child theme creation suggests you edit its `style.css` file
+* Performance: Only run code in admin page
+* Bug: Added in some missing gettext
+* Bug: Removed the double errors/updates being displays
+* Documentation: Make sure description is under 140 characters
+* Documentation: Screenshots now display
+* Documentation: Added banner image and plugin icon
+* Documentation: Other minor tweaks including updated FAQ and license
+
+**Version 1.5**
+
+* Feature: Added ability to repair child theme
+* Feature: Added ability to copy any template file from parent theme (thanks [Michael Rawlings](http://michaelrawlins.co.uk) for the idea)
+* Design: Upgrade look of form to resemble most admin forms.
+* Bug Fix: Properly shows a status message on success.
+* Documentation: Added section for FAQ and Screenshots.
+* Documentation: Some housecleaning of filesystem structure of plugin
+
+**Version 1.4**
+
+* Bug Fix: Modified to account for [changed best practice from using @import to function.php](http://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme)
+
+**Version 1.2**
+
+* Bug Fix: Remembers to network enable (activate) the theme after creation.
+* Feature: Added screenshot support (Thanks! Chris Robinson <http://contempographicdesign.com/>)
+* Bug Fix: WP_Error handling
+* Documentation: Refactored codebase
+
+**Version 1.1**
+
+* Feature: Added RTL support
+
+**Version 1.0.1**
+
+* Commenting changes.
+
+**Version 1.0**
+
+* Initial release
+
